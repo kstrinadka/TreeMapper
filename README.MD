@@ -21,4 +21,6 @@ Collection<TreeDTO> convert(Collection<TreeEntity> entities)
 Тесты написаны в классе **TreeMapperTest**.
 Примеры таких деревьев я использовал в тесте:
 <br><br>
+тут у first был индекс родителя, а самого родителя не было. Аналогично с hasFiveKids. У оставшихся трех узлов (singleNode) вообще не был указан родитель.
 ![trees](https://github.com/kstrinadka/TreeMapper/blob/master/src/main/resources/testData.png)
+Эти данные использовались в тестах
